@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="oxolane">
+
+
+
+
+
+<title>2019ioicamp | oxolane&#39;s blog</title>
+
+
+
+    <link rel="icon" href="/myblog/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/myblog/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/myblog/js/script.js"></script>
+    
+    <script src="/myblog/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/myblog/">oxolane&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/myblog/archives">Posts</a>
+                
+                    <a class="menu-item" href="/myblog/category">Categories</a>
+                
+                    <a class="menu-item" href="/myblog/tag">Tags</a>
+                
+                    <a class="menu-item" href="/myblog/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/myblog/">oxolane&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/myblog/archives">Posts</a>
+                
+                    <a class="menu-item" href="/myblog/category">Categories</a>
+                
+                    <a class="menu-item" href="/myblog/tag">Tags</a>
+                
+                    <a class="menu-item" href="/myblog/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">2019ioicamp</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">oxolane</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">五月 18, 2020&nbsp;&nbsp;1:27:08</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>#include&lt;ioicamp 2019&gt;<br>#include<cmoon> O(1)好方便喔<br>因為我真的是邊緣人<br>所以就想到的人就標 順便偷裝熟(?<br>是說有沒有人能跟我說這幾天的照片怎麼拿到<br>或是有沒有撿到我的滑鼠QAQ</p>
+<p>恩反正這應該是心得加日記吧(也許啦?</p>
+<h2 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h2><p>一大早先跑去台中找外婆<br>然後獲得拉肚子之能力 然後就奔上台北了XD<br>先到家裡看看 恩www好懷念<br>接著就跑去找WMTC2018的朋友了(?</p>
+<h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h2><p>一大早進去資工館，就看到一堆很電的人<br>就知道這幾天應該是被電到爛吧<br>之後看到王師宇跟翁菀羚在報到的地方<br>覺得安心多了(我也不知道為何這樣想<br>大概是覺得至少有一點朋友?<br>後來看到位置表<br>早午是課程 直接省略 接下來的幾天課程也省略<br>晚上是趣味賽 發現隊友是陳冠辰 跟 Steven Yu<br>靠他們Carry拿了一點名次 也了解了賽制<br>之後的幾天團體賽也是跟他們 直接被罩<br>好感動www</p>
+<h2 id="Day-2"><a href="#Day-2" class="headerlink" title="Day 2"></a>Day 2</h2><p>其實那是難得普通的一天<br>大概就是認識 PuYu Liao 電神<br>並且一直問他煩人問題</p>
+<p>晚上個人賽 原本以為超可怕<br>結果後來排名比想像中的好www 算賺ㄅ</p>
+<h2 id="Day-3"><a href="#Day-3" class="headerlink" title="Day 3"></a>Day 3</h2><p>也算是普通的一天 一樣是課程一直飆<br>然後缺少經驗的廢柴我一直掉進度<br>然後終於知道一些電神長怎麼樣了<br>原本是只聽過名字 現在終於知道長相<br>感覺跟著變電一點(?</p>
+<h2 id="Day-4"><a href="#Day-4" class="headerlink" title="Day 4"></a>Day 4</h2><p>早上的課因為不在就沒有上了<br>下午來之後上DP 結果真的是DP-hard<br>中間發生障礙的晃神?</p>
+<p>晚餐結束後就跟 王師宇 翁菀羚 鄭天盛 跑去打桌球<br>當然超久沒有運動的我依然爛www<br>但是卻是最近來運動量最大的事了<br>晚上的個人賽部分則是表現超爛<br>整個難到爆 加上我的電腦突然沒開(?<br>因此pA超慢解出來 排名也超低(因為我沒解出其他的</p>
+<h2 id="Day-5"><a href="#Day-5" class="headerlink" title="Day 5"></a>Day 5</h2><p>早上直接一個睡過頭(跪著面對講師www<br>不過還好後來講的大多有吸收到 賺<br>下午開始正式賽<br>忘記記時間了 反正就是 電神陳冠辰 瘋狂輸出<br>然後我做個餅乾問題也卡住 只生出k+1相關<br>幫忙到物理題的莫名梗(?<br>總之就是電神一直輸出 我是一個沒用的輔助<br>最後我連pB的推導公式有點錯誤 超沒用的</p>
+<p>總結<br>應該有沒人可以把這流水帳看到這裡<br>總之謝謝這幾天隊友的超高輸出<br>跟忍受我一堆簡單的問題還有bug<br>以及感謝讓我進到這營隊 拓展視野<br>還有有人找我講話 不讓我邊緣到極致<br>但我沒住宿舍真的是錯誤決定QAQ<br>各方面來說都是不太優</p>
+<p>好棒哦我居然凌晨五點在發文欸XD<br>圖片是指向tan乙己的moon<br>感覺漏打很多，順序也怪怪的<br>可能會補ㄅ 凌晨邏輯真的很爛</p>
+<p><img src="/image/2019ioicamp.jpg" alt=""></p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>oxolane</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://henrytsui000.github.io/myblog/2020/05/18/2019ioicamp/">https://henrytsui000.github.io/myblog/2020/05/18/2019ioicamp/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>DESTINY</strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/myblog/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/myblog/2020/05/18/first/">first</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© oxolane | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
