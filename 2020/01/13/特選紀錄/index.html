@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="oxolane">
+
+
+
+
+
+<title>特選紀錄 | oxolane&#39;s blog</title>
+
+
+
+    <link rel="icon" href="/myblog/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/myblog/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/myblog/js/script.js"></script>
+    
+    <script src="/myblog/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/myblog/">oxolane&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/myblog/archives">Posts</a>
+                
+                    <a class="menu-item" href="/myblog/category">Categories</a>
+                
+                    <a class="menu-item" href="/myblog/tag">Tags</a>
+                
+                    <a class="menu-item" href="/myblog/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/myblog/">oxolane&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/myblog/archives">Posts</a>
+                
+                    <a class="menu-item" href="/myblog/category">Categories</a>
+                
+                    <a class="menu-item" href="/myblog/tag">Tags</a>
+                
+                    <a class="menu-item" href="/myblog/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">特選紀錄</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">oxolane</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">一月 13, 2020&nbsp;&nbsp;0:00:00</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="分享-特殊選才-資工-電機"><a href="#分享-特殊選才-資工-電機" class="headerlink" title="分享 特殊選才 - 資工/電機"></a>分享 特殊選才 - 資工/電機</h1><h2 id="目錄"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><ol>
+<li>序</li>
+<li>關於我</li>
+<li>備審資料</li>
+<li>複試</li>
+<li>心得</li>
+</ol>
+<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>我是今年交大電機特殊選才的學生，同時我也申請其他大學特殊選才<br>希望我的經歷可以幫助到未來想申請的學弟妹<br>申請最終結果</p>
+<ul>
+<li>交大百川-備取</li>
+<li>交大電機-正取</li>
+<li>交大資工-備取五</li>
+<li>清大學士班-初試刷刷刷</li>
+<li>清大動機-備取五</li>
+<li>清大資工-備取九</li>
+<li>成大資工-複試缺考(撞交大百川)</li>
+<li>中興資工-備取二</li>
+</ul>
+<h2 id="關於我"><a href="#關於我" class="headerlink" title="關於我"></a>關於我</h2><p>我國中就讀普通國中，遇到不錯的老師，把我的數學/機器人成績拉起來，並開始參加競賽。<br>會考畫卡劃錯之後就到社區高中就讀，高二開始參加演算法競賽<br>得獎總表:</p>
+<blockquote>
+<p>數學&lt;<br>*2016 世界數學團體錦標賽 個人組銀牌(WMTC)(國際)</p>
+</blockquote>
+<ul>
+<li>2018 世界高中數學聯賽 團體第五(ARML)(國際)</li>
+<li>2018 世界數學團體錦標賽 個人組銀牌(WMTC)(國際)</li>
+<li>2019 世界高中數學聯賽 團體第三(ARML) (隊長)(國際)</li>
+<li>2019 高中數理能力檢定 銅牌QAQ(APX)(全國)<blockquote>
+<p>機器人&lt;</p>
+</blockquote>
+</li>
+<li>2016 台灣青少年機器人大賽 競賽類第一(TTRA)(全國)</li>
+<li>2018 First Global Challenge國手選拔賽 第三(全國)</li>
+<li>2018 World Adolescent Robot Contest 第一(WARC)(國際)</li>
+<li>2018 First Global Challenge 83名(FGC)(國際)</li>
+<li>2018 RoboCupJunior Taiwan Open 救援高級組第五(RCJ)(全國)</li>
+<li>2019 台灣青少年機器人大賽 競賽類第二(TTRA)(全國)</li>
+<li>2019 First Global Challenge 代表組隊權(FGC)(國際)<blockquote>
+<p>資訊&lt;</p>
+</blockquote>
+</li>
+<li>107學年度校內學科能力競賽資訊科 第三名(校內)</li>
+<li>108學年度校內學科能力競賽資訊科 第一名(校內)</li>
+<li>108學年度北二區學科能力競賽資訊科 第五名(區域)</li>
+<li>108學年度全國資訊學科能力競賽決賽 全國31(全國)</li>
+<li>2019 HP Codewars 第五(全國)</li>
+</ul>
+<p>還有一些零星的紀錄或是活動就不在這邊說了</p>
+<h2 id="備審資料"><a href="#備審資料" class="headerlink" title="備審資料"></a>備審資料</h2><p>我從8月就開始準備申請資料，不過因為我消極準備，所以導致十月底差點忙死，因此放棄了一些學系。建議早點開始準備<br>我會建議去參加各學校的特殊選才說明會，教授表示他們大概要收哪樣類型的學生。<br>不過在準備時也要再次去他們的網站看一下學校在幹嘛，以免像我的清大學士班準備錯方向而失去資格。<br>如果有點不太懂格式或內容大概要怎麼寫 可以請教老師或家長，他們在準備時給了我很大的幫助<br>未來規劃我老套的按照 入學前/大學期間/畢業後 分類</p>
+<p>推薦信的話建議找真正了解你的人，如果只是找不熟的權貴人士(?)教授很容易看出來他跟你不熟</p>
+<p>自傳則建議迴避族譜以及一些小事蹟，這是特殊選才，應該注重特殊表現</p>
+<p>另外 誠實至上 不然面試死慘慘<br>有時候承認自己的不足未必是下策<br>並且了解是否真的想要那個系<br>因為想說是理組科系 所有就沒有特別排版跟美編 不知道有沒有影響分數</p>
+<h2 id="複試"><a href="#複試" class="headerlink" title="複試"></a>複試</h2><p>通常第一次面試會很緊張，這難以避免，我通常會選擇搭訕附近的考生，用聊天減少壓力，並且認識更多強者<br>並且面試幾乎都會有自我介紹，我的自我介紹就是自傳的濃縮版，並且在陳述時，用自己的話語說，而不是死背</p>
+<p>各校系面試過程(Sort by time)<br>-清大動機-<br>我跟大多數人不熟，並且是第一個，很快就面試了。一開始是自我介紹，後來問答則是有關於我的自我介紹<br>時間過的比想像中的快，一下子就結束了</p>
+<p>-交大百川-<br>這場則有不少認識的人，面試前就在休息區聊天，但因為很看重這次面試，所以壓力太大有點失常。<br>教授臉基本上偏黑，會對你的未來要做甚麼是有深入的探究 算是最硬的面試<br>還被問英文自我介紹 直接死亡</p>
+<p>-清大資工-<br>清大資工面試分為兩階段，第一接段是自我介紹/問答，第二階段是領域能力問題<br>兩階段都很輕鬆，教授人都很好，像是在聊天<br>第二階段我抽到8皇后問題題組<br>第一題 求八城堡排列法<br>第二題 皇后問題解法<br>第三題 估計時間複雜度</p>
+<p>-交大資工-<br>因為面試的人大多都認識，也都在休息區聊天，面試的問題貼近備審資料<br>專業問題在前面YJH以及CSY的文章就有提過 就不重複了</p>
+<p>-交大電機-<br>考生都不認識pwq我只好瘋狂默念自我介紹<br>教授偏兇，但問題都是關於自傳的，並會問FGC/FRC之類的差別</p>
+<p>-面試總結-<br>基本上大多關於自傳的內容，除了百川可能需要準備一下<br>並且確定你真的很想讀這個系，或是說服自己很想讀<br>基本上每個系都有問我糟糕的在校成績<br>然後交大臉偏黑 清大偏白<br>有個學長面試的時候跟我說 如果會緊張就想 [XX沒收我 是他們的損失]真的有用www</p>
+<h2 id="心得-總結"><a href="#心得-總結" class="headerlink" title="心得/總結"></a>心得/總結</h2><p>我準備特殊選才的時候壓裡很大，常常會崩潰，建議可以找也要申請的戰友一起努力<br>交大電機特殊選才大概是我認為最穩的科系，不過因為他最後放榜，所以超級煎熬<br>尤其是認識的朋友都正取之後的心情真的超糟<br>感謝國中時的老師拉拔我/學長點醒我<br>等放榜小撇步:<br>假設那天下午四點放榜，建議手機關機到那個時候 才不會整天很浮躁</p>
+<p>準備特殊選才壓力會很大，尤其是沒有其他同儕可以一起努力<br>但撐過去之後就會真的很爽XDD<br>就算要特殊選才 還是要顧在校成績喔</p>
+<p>如果有甚麼問題 歡迎留言<br>要面試細節 我也可以補充<br>我會盡量的回答到滿意(?)</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>oxolane</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://henrytsui000.github.io/myblog/2020/01/13/%E7%89%B9%E9%81%B8%E7%B4%80%E9%8C%84/">https://henrytsui000.github.io/myblog/2020/01/13/%E7%89%B9%E9%81%B8%E7%B4%80%E9%8C%84/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>DESTINY</strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/myblog/tags/%E5%8D%87%E5%AD%B8/"># 升學</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/myblog/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/myblog/2020/03/08/2020TOI/">2020TOI</a>
+            
+            
+            <a class="next" rel="next" href="/myblog/2019/12/15/2019%E5%85%A8%E5%9C%8B%E8%B3%BD/">2019全國賽</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© oxolane | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
