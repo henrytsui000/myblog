@@ -1,0 +1,24 @@
+hexo new "2019 APX(Advanced Placement eXams)"
+hexo new "2019 RCJ(RoboCupJunior)"
+hexo new "2019 TTRA(Taiwan Teenager Robot Association Competition)"
+hexo new "2019 YTP(Young Turing Program)"
+hexo new "2019 北二區"
+hexo new "2019 全國賽"
+hexo new "2019 HPCodeWars"
+hexo new ""
+hexo new "2018 WMTC(World Mathematics Team Championship)"
+hexo new "2018 FGC(First Global Challenge-Taiwan Station)"
+hexo new "2018 WARC(World Adolescent Robot Contest)"
+hexo new "2018 FGC(First Global Challenge-World Final)"
+hexo new ""
+hexo new "2017 TTRA(Taiwan Teenager Robot Association Competition)"
+hexo new ""
+hexo new "2016 WMTC(World Mathematics Team Championship)"
+hexo new ""
+
+NYCU-EELab
+NYCU-ODE
+NYCU-CV-application
+NYCU-DeepLearning and Self-driving
+NYCU-Intelligent Robot
+NYCU-Control Lab
